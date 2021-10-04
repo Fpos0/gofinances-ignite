@@ -77,7 +77,10 @@ function AuthProvider({ children }: AuthProviderProps) {
 
       }
     } catch (error) {
-      throw new Error(error);
+      // throw new Error(error);
+      throw new Error(error as string);
+      // console.log(error);
+
     }
   }
 
@@ -104,7 +107,9 @@ function AuthProvider({ children }: AuthProviderProps) {
         await AsyncStorage.setItem(userStorageKey, JSON.stringify(userLogged));
       }
     } catch (error) {
-      throw new Error(error);
+      // throw new Error(error);
+      throw new Error(error as string);
+      // console.log(error);
     }
   }
 

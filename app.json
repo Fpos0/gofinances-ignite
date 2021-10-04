@@ -9,5 +9,8 @@
     "assetBundlePatterns": [
       "**/*"
     ]
-  }
+  },
+  "android": {
+    "softwareKeyboardLayoutMode": "pan"
+  },
 }

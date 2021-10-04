@@ -20,7 +20,7 @@ export const Container = styled(RectButton).attrs({
 
 export const Icon = styled(Feather)`
   font-size: ${RFValue(20)}px;
-  color: ${({ theme }) => theme.colors.text}
+  color: ${({ theme }) => theme.colors.text};
 `;
 
 export const Category = styled.Text`

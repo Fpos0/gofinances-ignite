@@ -15,6 +15,7 @@ export function AppRoutes() {
       tabBarOptions={{
         activeTintColor: theme.colors.secondary,
         inactiveTintColor: theme.colors.text,
+        keyboardHidesTabBar: true,
         labelPosition: 'beside-icon',
         style: {
           paddingVertical: Platform.OS === 'ios' ? 20 : 0,
